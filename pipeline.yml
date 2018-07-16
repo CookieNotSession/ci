@@ -24,6 +24,8 @@ jobs:
   - task: hello-world
     file: resource-tutorial/task_hello_world.yml
   - put: cloudfoundry
-
+    params:
+      manifest: resource-tutorial/manifest.yml
+      path: templates/index.html
 
 
