@@ -5,6 +5,15 @@ resources:
   source:
     uri: https://github.com/CookieNotSession/ci.git
     branch: master
+- name: cloudfoundry
+  type: cf
+  source:
+    api: https://api.system.mypcf.idv.tw
+    username: allengreen
+    password: qwerty
+    organization: fet4IBM
+    space: sit-sapce
+    skip_cert_check: true
 
 jobs:
 - name: job-hello-world
