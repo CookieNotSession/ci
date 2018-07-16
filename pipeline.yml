@@ -12,4 +12,4 @@ jobs:
   plan:
   - get: resource-tutorial
   - task: hello-world
-    file: task_hello_world.yml
+    file: ci/task_hello_world.yml
